@@ -1,0 +1,90 @@
+ <html>
+<head>
+<title> formulario </title>
+</head>
+<body>
+<form action="registrardatos.php" method="post">
+Ingrese su contraseña:
+<input type="password" name="clave" size="12" >
+<br>
+Ingrese su comentario:
+<textarea name ="Comentario" rows=”5” cols=”60”  input maxlength="100"></textarea>
+<br>
+Ingrese su nombre:
+<input type="text" name="nombre" size="20" id=”nombre”>
+<br>
+Ingrese su estudios:
+<br>
+<input type="radio" name="estudios" value="1">Sin estudios<br>
+<input type="radio" name="estudios" value="2">Primario <br>
+<input type="radio" name="estudios" value="3">Secundario <br>
+<input type="radio" name="estudios" value="4">universitario<br>
+<br>
+seleccione su opcion:
+<br>
+<select name="select">
+<option value="value0">sin opcion</option> 
+<option value="value1">Value 1</option> 
+<option value="value2">Value 2</option>
+<option value="value3">Value 3</option>
+</select><br>
+
+seleccione su mascota:
+<br>
+<select name="Animal" size="4" multiple>
+<option value="1">Perro</option>
+<option value="2">Gato</option>
+<option value="3">Loro</option>
+<option value="4">Tortuga</option>
+<option value="5">Elefante</option>
+<option value="6">Jirafa</option>
+<option value="7">Paloma</option>
+</selct><br>
+
+seleccione su opcion:
+<br>
+<select name="articulo">
+<optgroup label="Color">
+<option value="rojo">rojo</option>
+<option value="verde">verde</option>
+</optgroup>
+<optgroup label="prenda">
+<option value="remera">Remera</option>
+<option value="Vestido">Vestido</option>
+</optgroup>
+</select>
+
+seleccine una imagen:<br>
+<button type="submit"> clik <img src="foto1.jpg"></button><br>
+<button type="submit"> clik <img src="foto1.jpg"></button><br>
+<button type="submit"> clik <img src="foto1.jpg"></button><br>
+
+
+<fiel>
+llenar:<br>
+Name: <input type="text"><br>
+Email: <input type="text"><br>
+</fiel>
+
+<fieldset>
+<legend>llenar:</legend>
+Name: <input type="text"><br>
+Email: <input type="text"><br>
+</fieldset>
+
+
+seleccione un eje:<br>
+<label for="Norte">norte</label>
+<input type="radio" name="1" id="Norte" value="Norte"><br>
+<label for="female">Sur</label>
+<input type="radio" name="2" id="Sur" value="Sur"><br>
+<label for="other">este</label>
+<input type="radio" name="3" id="Este" value="Este"><br>
+<label for="other">Oeste</label>
+<input type="radio" name="4" id="Oeste" value="Oeste"><br>
+
+
+
+</form>
+</body>
+</html>
